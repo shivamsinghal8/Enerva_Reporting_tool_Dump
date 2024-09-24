@@ -1,0 +1,24 @@
+{
+  "name": "excel_fetch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^2.7.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "moment-timezone": "^0.5.45",
+    "mssql": "^11.0.1",
+    "update": "^0.7.4"
+  },
+  "resolutions": {
+    "set-value": "3.0.1"
+  }
+}

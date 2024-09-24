@@ -1,0 +1,194 @@
+   alter table [dbo].[Everva_Bwek_Tool_Dummy_FactStatement]      add  [Date Time_timeZone] decimal(18,2) null
+																	  					
+  alter table [dbo].[Everva_Bwek_Tool_Dummy_log_FactStatement]   add  [Date Time_timeZone] decimal(18,2) null
+																	  					   
+  alter table [dbo].[Everva_Bwek_Tool_FactStatement]             add  [Date Time_timeZone] decimal(18,2) null
+																	  					  
+  alter table [dbo].[Everva_Bwek_Tool_log_FactStatement]         add  [Date Time_timeZone] decimal(18,2) null alter table [dbo].[Everva_Bwek_Tool_Dummy_FactStatement]      add [Date Time_time] datetime null,	[Date Time_timeZone] datetime null,	[Date Time_gmtTime] datetime null
+
+  alter table [dbo].[Everva_Bwek_Tool_Dummy_log_FactStatement]  add [Date Time_time] datetime null,	[Date Time_timeZone] datetime null,	[Date Time_gmtTime] datetime null
+
+  alter table [dbo].[Everva_Bwek_Tool_FactStatement]            add [Date Time_time] datetime null,	[Date Time_timeZone] datetime null,	[Date Time_gmtTime] datetime null
+
+  alter table [dbo].[Everva_Bwek_Tool_log_FactStatement]         add [Date Time_time] datetime null,	[Date Time_timeZone] datetime null,	[Date Time_gmtTime] datetime null
+
+
+
+ALTER TABLE VesselAnmolReports1 ADD AE_1_Main_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_1_Main_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_1_Main_Cons_mt_MGO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_1_Main_Cons_mt_LNG FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_1_Pilot_Injector_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_1_Pilot_Injector_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_1_Pilot_Injector_Cons_mt_MGO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_2_Main_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_2_Main_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_2_Main_Cons_mt_MGO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_2_Main_Cons_mt_LNG FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_2_Pilot_Injector_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_2_Pilot_Injector_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_2_Pilot_Injector_Cons_mt_MGO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_3_Main_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_3_Main_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_3_Main_Cons_mt_MGO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_3_Main_Cons_mt_LNG FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_3_Pilot_Injector_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_3_Pilot_Injector_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_3_Pilot_Injector_Cons_mt_MGO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_4_Main_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_4_Main_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_4_Main_Cons_mt_MGO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_4_Main_Cons_mt_LNG FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_4_Pilot_Injector_Cons_mt_HFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_4_Pilot_Injector_Cons_mt_LFO FLOAT;
+ALTER TABLE VesselAnmolReports1 ADD AE_4_Pilot_Injector_Cons_mt_MGO FLOAT;
+
+
+
+
+-- For tables in sheetNameToTableName
+ALTER TABLE Enerna_new_reporting_tool
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Enerna_new_reporting_log_tool
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Bunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_log_Bunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_DeBunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_log_DeBunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_fuel_cons
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_log_fuel_cons
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Cargo
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_log_Cargo
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_FactStatement
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_log_FactStatement
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+-- For tables in sheetNameToDummyTable
+ALTER TABLE Enerna_new_reporting_dummy_tool
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Enerna_new_reporting_Dummydata_log_tool
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_Bunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_log_Bunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_DeBunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_log_DeBunker
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_fuel_cons
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_fuel_log_cons
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_Cargo
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_log_Cargo
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_FactStatement
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+
+ALTER TABLE Everva_Bwek_Tool_Dummy_log_FactStatement
+ADD CreatedBy VARCHAR(512) NULL,
+    CreatedAt SMALLDATETIME NULL,
+    UpdatedBy VARCHAR(512) NULL,
+    UpdatedAt SMALLDATETIME NULL;
+

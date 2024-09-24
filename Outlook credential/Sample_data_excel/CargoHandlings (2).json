@@ -1,0 +1,24 @@
+[
+  {
+    "Cargo": "PALM OIL",
+    "Berth": "PACO",
+    "Load_And_Discharge": "Load",
+    "BL_Code": "EYOSPGD0",
+    "BL_Disch_Date": "2024-09-18T00:00:00.000Z",
+    "Unit": "MT",
+    "BL_Gross": 25898.9,
+    "Ship_Gross": 25914.24,
+    "Alt_Unit": "m3",
+    "Alt_BL_Gross": 28493.44,
+    "Alt_Ship_Gross": 29390,
+    "Charterer": "CLEARLAKE",
+    "Consignee": "AS PER CHARTER PARTY",
+    "Receiver": "AS PER CHARTER PARTY",
+    "Shipper": "AS PER CHARTER PARTY",
+    "Destination": "HUELVA",
+    "Letter_Of_Protest": "ISSUED",
+    "Remarks": "SEE VESSEL CARGO DOCS",
+    "id": 1,
+    "report_id": 1
+  }
+]

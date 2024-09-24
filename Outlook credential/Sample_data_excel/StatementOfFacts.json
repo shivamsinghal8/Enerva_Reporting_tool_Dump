@@ -1,0 +1,52 @@
+[
+  {
+    "Activity": "INTERRUPT SEA PASSAGE (ISP)",
+    "Cargo": "PALM OIL",
+    "Remarks": null,
+    "Date Time_time": "2024-08-11T22:00:00.000Z",
+    "Date Time_timeZone": 8,
+    "Date Time_gmtTime": "2024-08-11T14:00:00.000Z",
+    "id": 1,
+    "report_id": 1
+  },
+  {
+    "Activity": "START BUNKERING",
+    "Cargo": null,
+    "Remarks": null,
+    "Date Time_time": "2024-08-12T01:24:00.000Z",
+    "Date Time_timeZone": 8,
+    "Date Time_gmtTime": "2024-08-11T17:24:00.000Z",
+    "id": 2,
+    "report_id": 1
+  },
+  {
+    "Activity": "END BUNKERING",
+    "Cargo": null,
+    "Remarks": null,
+    "Date Time_time": "2024-08-12T23:10:00.000Z",
+    "Date Time_timeZone": 8,
+    "Date Time_gmtTime": "2024-08-12T15:10:00.000Z",
+    "id": 3,
+    "report_id": 1
+  },
+  {
+    "Activity": "ANCHOR AWEIGH",
+    "Cargo": null,
+    "Remarks": null,
+    "Date Time_time": "2024-08-13T00:54:00.000Z",
+    "Date Time_timeZone": 8,
+    "Date Time_gmtTime": "2024-08-12T16:54:00.000Z",
+    "id": 4,
+    "report_id": 1
+  },
+  {
+    "Activity": "RESUME SEA PASSAGE (RSP)",
+    "Cargo": null,
+    "Remarks": null,
+    "Date Time_time": "2024-08-13T02:00:00.000Z",
+    "Date Time_timeZone": 8,
+    "Date Time_gmtTime": "2024-08-12T18:00:00.000Z",
+    "id": 5,
+    "report_id": 1
+  }
+]
